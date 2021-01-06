@@ -1,0 +1,15 @@
+.logo__Web {
+  color: var(--accent-color);
+}
+.logo {
+  // align-items: center;
+  // display: flex;
+  // margin-right: 93px;
+  font-family: var(--secondary-fond);
+  font-style: normal;
+  @include font(26px, bold, 31px);
+  letter-spacing: 0.03em;
+}
+.logo__Studio {
+  color: #000000;
+}

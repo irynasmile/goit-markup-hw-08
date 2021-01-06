@@ -1,0 +1,24 @@
+.occupation__list {
+  // display: flex;
+  justify-content: center;
+}
+
+.occupation__item {
+  position: relative;
+  & + & {
+    margin-left: 30px;
+  }
+}
+.occupation__bg {
+  // display: flex;
+  position: absolute;
+  width: 370px;
+  height: 70px;
+  bottom: 0;
+  justify-content: center;
+  align-items: center;
+  background: rgba(47, 48, 58, 0.8);
+}
+.occupation__bg .text__uppercase {
+  margin-bottom: 0;
+}

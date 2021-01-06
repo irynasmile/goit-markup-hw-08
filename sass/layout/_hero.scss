@@ -1,0 +1,29 @@
+.hero {
+  background: #2f303a;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../images/jpj.effective.solution.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  // max-width: 1600px;
+  // height: 600px;
+  margin-right: auto;
+  margin-left: auto;
+  // text-align: center;
+  // padding-bottom: 200px;
+  // padding-top: 200px;
+
+  &__tittle {
+    color: var(--white-color);
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.363;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+  }
+}
+/*========= advantages =========*/
