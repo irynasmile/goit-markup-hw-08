@@ -7,23 +7,38 @@
     url("../images/jpj.effective.solution.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  // max-width: 1600px;
-  // height: 600px;
   margin-right: auto;
   margin-left: auto;
-  // text-align: center;
-  // padding-bottom: 200px;
-  // padding-top: 200px;
-
-  &__tittle {
-    color: var(--white-color);
-    font-style: normal;
-    font-weight: 900;
+  text-align: center;
+  max-width: 1600px;
+  height: 400px;
+  //  @media screen and (max-width: 480px) {
+  // padding: 118px, 60px;
+  @media screen and (min-width: 481px) {
+    background-color: yellow;
+    height: 600px;
+    padding-bottom: 200px;
+    padding-top: 200px;
+  }
+}
+.hero__tittle {
+  color: var(--white-color);
+  font-style: normal;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.06em;
+  @media screen and (max-width: 768px) {
+    @include font(26px, 900, 42px);
+    padding: 60px;
+  }
+  @media screen and (min-width: 769px) {
     font-size: 44px;
     line-height: 1.363;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
+  }
+  @media screen and (min-width: 1200px) {
     margin-bottom: 30px;
   }
 }
+
 /*========= advantages =========*/

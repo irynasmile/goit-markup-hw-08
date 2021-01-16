@@ -1,8 +1,14 @@
 .button__list {
   display: flex;
-  justify-content: center;
-  margin-bottom: 50px;
-  /* background-color: red; */
+  flex-wrap: wrap;
+  @media screen and (max-width: 483px) {
+    margin-bottom: 30px;
+  }
+  @media screen and (min-width: 484px) {
+    justify-content: center;
+    margin-bottom: 50px;
+    /* background-color: red; */
+  }
 }
 .button__item:not(:last-child) {
   margin-right: 8px;

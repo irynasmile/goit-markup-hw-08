@@ -1,5 +1,15 @@
+.occupation-shown {
+  @media screen and (max-width: 768px) {
+    // background-color: yellow;
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+  }
+}
+
 .occupation__list {
-  // display: flex;
+  display: flex;
   justify-content: center;
 }
 
@@ -10,7 +20,7 @@
   }
 }
 .occupation__bg {
-  // display: flex;
+  display: flex;
   position: absolute;
   width: 370px;
   height: 70px;
