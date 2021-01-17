@@ -93,7 +93,7 @@
   padding: 16px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   margin-bottom: 20px;
-  @media screen and (max-width: 483px) {
+  @media screen and (min-width: 480px) {
     width: 450px;
   }
   @media screen and (min-width: 700px) {

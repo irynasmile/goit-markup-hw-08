@@ -67,6 +67,8 @@ img {
 }
 
 .container {
+  border: 1px solid red;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
@@ -581,7 +583,13 @@ img {
   }
 }
 
-@media screen and (min-width: 483px) {
+@media screen and (max-width: 576px) {
+  .advantages__item + .advantages__item {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (min-width: 577px) {
   .advantages__item {
     margin: 15px;
     flex-basis: calc((100% - 4 * 15px) / 2);
@@ -668,13 +676,13 @@ img {
   .team__list {
     display: flex;
     justify-content: center;
+    margin: -15px;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .team__list {
     flex-wrap: wrap;
-    margin: -15px;
   }
 }
 
@@ -690,7 +698,7 @@ img {
   }
 }
 
-@media screen and (max-width: 1199px) {
+@media screen and (min-width: 768px) {
   .team__item {
     flex-basis: calc((100% - 4 * 15px) / 2);
     margin: 15px;
@@ -912,7 +920,7 @@ img {
   margin-bottom: 20px;
 }
 
-@media screen and (max-width: 483px) {
+@media screen and (min-width: 480px) {
   .field__input {
     width: 450px;
   }
