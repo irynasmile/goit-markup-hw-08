@@ -1,12 +1,12 @@
 .projects__list {
-  @media screen and (min-width: 484px) {
+  @media screen and (min-width: 577px) {
     display: flex;
     flex-wrap: wrap;
     margin: -15px;
   }
 }
 .projects__item {
-  @media screen and (max-width: 576px) {
+  @media screen and (max-width: 767) {
     & + & {
       margin-bottom: 30px;
     }
@@ -18,7 +18,7 @@
     max-width: 450px;
     /* outline: 1px solid tomato; */
   }
-  @media screen and (min-width: 769px) {
+  @media screen and (min-width: 1200px) {
     flex-basis: calc((100% - 6 * 15px) / 3);
   }
 }
@@ -26,7 +26,7 @@
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   overflow: hidden;
-  @media screen and (max-width: 576px) {
+  @media screen and (max-width: 767px) {
     // margin-left: auto;
     // margin-right: auto;
     // max-width: 450px;
@@ -86,7 +86,7 @@
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: #776775;
 }
 .projects__link:focus,
 .projects__link:hover {

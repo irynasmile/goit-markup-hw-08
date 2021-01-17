@@ -1,7 +1,7 @@
 .button__list {
   display: flex;
   flex-wrap: wrap;
-  @media screen and (min-width: 577px) {
+  @media screen and (min-width: 768px) {
     justify-content: center;
     margin-bottom: 30px;
     /* background-color: red; */
@@ -17,7 +17,7 @@
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
-  @media screen and (max-width: 576px) {
+  @media screen and (max-width: 767) {
     & + & {
       margin-bottom: 15px;
     }
