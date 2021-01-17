@@ -7,9 +7,6 @@
     /* background-color: red; */
   }
 }
-.button__item:not(:last-child) {
-  margin-right: 8px;
-}
 .button__item {
   font-weight: normal;
   font-size: 16px;
@@ -17,7 +14,10 @@
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
-  @media screen and (max-width: 767) {
+  &:not(:last-child) {
+    margin-right: 8px;
+  }
+  @media screen and (max-width: 767px) {
     & + & {
       margin-bottom: 15px;
     }
