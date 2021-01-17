@@ -1,12 +1,9 @@
 .button__list {
   display: flex;
   flex-wrap: wrap;
-  @media screen and (max-width: 483px) {
-    margin-bottom: 30px;
-  }
-  @media screen and (min-width: 484px) {
+  @media screen and (min-width: 577px) {
     justify-content: center;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     /* background-color: red; */
   }
 }
@@ -20,6 +17,14 @@
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  @media screen and (max-width: 576px) {
+    & + & {
+      margin-bottom: 15px;
+    }
+    &:nth-child(n + 4) {
+      margin-bottom: 40px;
+    }
+  }
 }
 .button {
   font-family: var(--main-fond);

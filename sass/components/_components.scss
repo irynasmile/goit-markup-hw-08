@@ -14,7 +14,7 @@
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  // @media screen and (min-width: 576px) {
+  // @media screen and (max-width: 576px) {
   //   width: 576px;
   @media screen and (min-width: 480px) {
     width: 480px;
@@ -23,7 +23,10 @@
   @media screen and (min-width: 768px) {
     width: 768px;
     // background-color: rgb(178, 228, 233);
+    // @media screen and (max-width: 960px) {
   }
+
+  // @media screen and (min-width: 961px) {
   @media screen and (min-width: 1200px) {
     width: 1200px;
   }
