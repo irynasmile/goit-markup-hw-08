@@ -761,30 +761,26 @@ img {
 }
 
 @media screen and (max-width: 767px) {
-  .clients__link {
+  .clients__item {
     flex-basis: calc((100% - 4 * 15px) / 2);
     margin: 15px;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
-  .clients__link {
+  .clients__item {
     flex-basis: calc((100% - 6 * 15px) / 3);
     margin: 15px;
   }
 }
 
 @media screen and (min-width: 1200px) {
-  .clients__link {
+  .clients__item {
     width: 170px;
   }
-  .clients__link + .clients__link {
+  .clients__item + .clients__item {
     margin-left: 30px;
   }
-}
-
-.clients__item + .clients__item {
-  margin-left: 30px;
 }
 
 .icon {
