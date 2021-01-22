@@ -634,6 +634,12 @@ img {
   margin-bottom: 10px;
 }
 
+@media screen and (max-width: 767px) {
+  .advantages__heder {
+    text-align: center;
+  }
+}
+
 .advantages__text {
   font-size: 14px;
   font-weight: normal;
@@ -1019,7 +1025,7 @@ img {
 
 @media screen and (min-width: 1200px) {
   .button__list {
-    margin-bottom: 34px;
+    margin-bottom: 50px;
   }
 }
 

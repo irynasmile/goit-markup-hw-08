@@ -32,6 +32,10 @@
   margin-bottom: 30px;
 }
 .advantages__heder {
+  @media screen and (max-width: 767px) {
+    // align-items: center;
+    text-align: center;
+  }
   color: #212121;
   @include font(14px, bold, 16px);
   letter-spacing: 0.03em;
