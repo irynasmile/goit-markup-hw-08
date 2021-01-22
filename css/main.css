@@ -1106,20 +1106,20 @@ img {
   }
 }
 
-.projects__foto {
+.projects__picture {
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   overflow: hidden;
 }
 
 @media screen and (max-width: 767px) {
-  .projects__foto {
+  .projects__picture {
     width: 100%;
   }
 }
 
 @media screen and (min-width: 768px) {
-  .projects__foto {
+  .projects__picture {
     width: 370px;
     height: 294px;
   }
